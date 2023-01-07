@@ -18,6 +18,7 @@ import { BiBookReader } from 'react-icons/bi';
 import { RxCommit } from 'react-icons/rx';
 import { TbTrees } from 'react-icons/tb';
 import styles from '../styles/Index.module.css';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -43,7 +44,7 @@ export default function Home() {
                   className=" cursor-pointer text-2xl dark:text-gray-400" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-sky-500 to-emerald-500 text-white px-4 py-2 rounded-md ml-8" href="about">Resumo</a>
+                <Link className="bg-gradient-to-r from-sky-500 to-emerald-500 text-white px-4 py-2 rounded-md ml-8" href="about">Resumo</Link>
               </li>
             </ul>
           </nav>
