@@ -69,7 +69,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-emerald-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={ricardoImg} className="w-44 mx-auto md:w-52" />
+            <Image src={ricardoImg} className="w-44 mx-auto md:w-52" alt="Ricardo" />
           </div>
         </section>
         <hr className="h-px my-20 bg-gray-400 border-0 dark:bg-gray-700"></hr>

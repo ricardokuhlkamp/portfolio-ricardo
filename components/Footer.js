@@ -4,7 +4,7 @@ function Footer() {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
   useEffect(()=> {
     setCurrentYear(new Date().getFullYear());
-  });
+  }, []);
   return (
     <footer className="bg-emerald-500 p-3 text-center font-bold">
       <p className="text-sm">
