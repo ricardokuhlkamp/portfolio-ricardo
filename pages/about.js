@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 function About() {
-  const [darkMode, setDarkMode] = useState();  
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
