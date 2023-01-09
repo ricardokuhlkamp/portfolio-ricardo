@@ -168,10 +168,17 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="basis-[45%] shadow-lg p-8 rounded-xl my-5 text-center dark:bg-white dark:shadow-sky-500/50">
+            {/* <div className="basis-[45%] shadow-lg p-8 rounded-xl my-5 text-center dark:bg-white dark:shadow-sky-500/50">
               <video autoPlay loop muted className="rounded-lg object-cover" width={'100%'} heigth={'100%'}>
                 <source src="/tt.mp4" type="video/mp4" />
               </video>
+              <div className="mt-6">
+                <h2 className="font-bold text-xl">TrybeTunes</h2>
+                <p className="text-gray-800">HTML, CSS, ReactJS, Bootstrap, React-Bootstrap</p>
+              </div>
+            </div> */}
+            <div className="basis-[45%] shadow-lg p-8 rounded-xl my-5 text-center dark:bg-white dark:shadow-sky-500/50">
+              <Image src={trybetunes} alt="trybetunes" className="rounded-lg object-cover" width={'100%'} heigth={'100%'} />
               <div className="mt-6">
                 <h2 className="font-bold text-xl">TrybeTunes</h2>
                 <p className="text-gray-800">HTML, CSS, ReactJS, Bootstrap, React-Bootstrap</p>
