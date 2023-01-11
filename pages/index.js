@@ -19,11 +19,20 @@ import { RxCommit } from 'react-icons/rx';
 import { TbTrees } from 'react-icons/tb';
 import styles from '../styles/Index.module.css';
 import Link from 'next/link';
+// import { useRouter } from 'next/router';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  // const router = useRouter();
+  // const handleDarkMode = () => {
+  //   setDarkMode(!darkMode);
+  //   router.push({
+  //     // pathname: '/about',
+  //     query: { parametro: darkMode }
+  //   })
+  // }
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -40,7 +49,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
+                  onClick={ () => setDarkMode(!darkMode) }
                   className=" cursor-pointer text-2xl dark:text-gray-400" />
               </li>
               <li>
@@ -76,7 +85,7 @@ export default function Home() {
         <div className="text-center">
           <h3 className="text-3xl py-1 dark:text-white">Habilidades</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-            HardSkilss:
+            HardSkills:
           </p>
         </div>
         <div className="flex flex-wrap justify-center lg:flex gap-10">
@@ -107,7 +116,7 @@ export default function Home() {
         </div>
         <div className="text-center">
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-            SoftSkilss:
+            SoftSkills:
           </p>
         </div>
         <div className="flex flex-wrap justify-center lg:flex gap-10">

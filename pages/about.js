@@ -4,8 +4,9 @@ import Footer from '../components/Footer';
 import Link from 'next/link';
 import Head from 'next/head';
 
-function About() {
+function About(props) {
   const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
