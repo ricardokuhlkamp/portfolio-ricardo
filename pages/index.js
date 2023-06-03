@@ -242,7 +242,7 @@ export default function Home() {
 
             <h2 className="text-2xl py-1 dark:text-white">UNIASSELVI</h2>
             <h2 className="text-xl py-1 dark:text-white">Tecnólogo, Análise e Desenvolvimento de Sistemas</h2>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">outubro de 2020 - março de 2023.</p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">outubro de 2020 - agosto de 2023.</p>
 
             <h2 className="text-2xl py-1 dark:text-white">Universidade do Estado de Santa Catarina</h2>
             <h2 className="text-xl py-1 dark:text-white">Bacharelado, Agronomia</h2>
