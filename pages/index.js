@@ -68,15 +68,15 @@ export default function Home() {
             <a href='https://github.com/ricardokuhlkamp' target="_blank" rel="noreferrer">
               <AiFillGithub className="hover:text-[#171515] transition-colors duration-200 delay-200" />
             </a>
-            <a href='https://www.facebook.com/ricardo.kulkampdasilva' target="_blank" rel="noreferrer">
+            {/* <a href='https://www.facebook.com/ricardo.kulkampdasilva' target="_blank" rel="noreferrer">
               <AiOutlineFacebook className="hover:text-[#1877f2] transition-colors duration-200 delay-200" />
-            </a>
+            </a> */}
             <a href='https://api.whatsapp.com/send?phone=5547999156365&text=Olá%20Ricardo,%20vi%20seu%20portfolio!%20Podemos%20conversar?' target="_blank" rel="noreferrer">
               <AiOutlineWhatsApp className="hover:text-[#34af23] transition-colors duration-200 delay-200" />
             </a>
-            <a href='https://www.instagram.com/ricardokds/' target="_blank" rel="noreferrer">
+            {/* <a href='https://www.instagram.com/ricardokds/' target="_blank" rel="noreferrer">
               <AiFillInstagram className="hover:text-[#c32aa3] transition-colors duration-200 delay-200" />
-            </a>
+            </a> */}
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-emerald-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={ricardoImg} className="w-44 mx-auto md:w-52" alt="Ricardo" />
