@@ -14,6 +14,7 @@ import pixelArt from '../public/pixelArt.gif';
 import pokedex from '../public/pokedex.gif';
 import trybetunes from '../public/trybeTunes.gif';
 import booksrealm from '../public/booksrealm.gif';
+import netflixclone from '../public/netflixclone.gif';
 import { useState, useEffect, useRef } from 'react';
 import Footer from '../components/Footer';
 import { BiBookReader } from 'react-icons/bi';
@@ -170,6 +171,16 @@ export default function Home() {
                 <h2 className="font-bold text-xl">BooksRealm</h2>
                 <p className="text-gray-800">Este projeto é uma aplicação MERN - MongoDB, Express, React, e NodeJS</p>
                 <a href='https://books-realm-app-frontend-8vplc8gkz-ricardokuhlkamp.vercel.app/' target="_blank" rel="noreferrer">veja o projeto em ação!</a>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center lg:flex gap-10 flex-col lg:flex-row lg:flex-wrap pb-20">
+            <div className="basis-[45%] shadow-lg p-8 rounded-xl my-5 text-center dark:bg-white dark:shadow-sky-500/50">
+              <Image src={netflixclone} alt="netflixclone" className="rounded-lg object-cover" width={'100%'} heigth={'100%'} />
+              <div className="mt-6">
+                <h2 className="font-bold text-xl">Netflix Clone</h2>
+                <p className="text-gray-800">Este projeto é uma aplicação React que utiliza a API do TheMovieDB</p>
+                <a href='https://netflix-clone-zeta-livid.vercel.app/' target="_blank" rel="noreferrer">veja o projeto em ação!</a>
               </div>
             </div>
           </div>
